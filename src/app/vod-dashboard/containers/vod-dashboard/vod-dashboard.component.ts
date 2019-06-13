@@ -14,7 +14,7 @@ export class VodDashboardComponent implements OnInit {
   ngOnInit(): void {
     this.vodService.getVideos().subscribe((videoList: VideoItem[]) => {
       console.log(videoList);
-      this.videos = videoList;
+      this.videos = videoList.reverse();
     });
   }
 }

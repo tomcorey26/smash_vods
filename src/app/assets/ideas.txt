@@ -1,0 +1,9 @@
+use
+https://material.angular.io/components/expansion/overview
+expansion panel with drop down with more info about match?
+
+player profiles
+
+system for filtering matches
+
+account/upvote/ comment system

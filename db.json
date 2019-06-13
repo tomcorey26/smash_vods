@@ -1119,38 +1119,6 @@
         "videoId": "QMDHAZx92vw",
         "videoPublishedAt": "2019-06-03T04:11:08.000Z"
       }
-    },
-    {
-      "snippet": {
-        "title": "SNS5 - Liquid'Hungrybox Interviews FOX MVG | Mkleo",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/PQrApxoD_X4/default.jpg",
-            "width": 120,
-            "height": 90
-          }
-        }
-      },
-      "contentDetails": {
-        "videoId": "PQrApxoD_X4",
-        "videoPublishedAt": "2019-06-03T04:11:11.000Z"
-      }
-    },
-    {
-      "snippet": {
-        "title": "SNS5 - Liquid'Hungrybox Interviews Mazer | NAKAT",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/SZB7VDuKePU/default.jpg",
-            "width": 120,
-            "height": 90
-          }
-        }
-      },
-      "contentDetails": {
-        "videoId": "SZB7VDuKePU",
-        "videoPublishedAt": "2019-06-03T04:16:14.000Z"
-      }
     }
   ]
 }
