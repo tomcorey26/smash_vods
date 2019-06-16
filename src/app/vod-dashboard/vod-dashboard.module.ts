@@ -7,13 +7,15 @@ import { SharedMaterialModule } from "./material-ui/shared-material.module";
 //Containers
 import { VodDashboardComponent } from "./containers/vod-dashboard/vod-dashboard.component";
 
+//Component
+import { VodDetailComponent } from "./components/vod-detail/vod-detail.component";
 //services
 import { VodDashboardService } from "./vod-dashboard.service";
 
 @NgModule({
-  declarations: [VodDashboardComponent],
+  declarations: [VodDashboardComponent, VodDetailComponent],
   imports: [HttpClientModule, CommonModule, SharedMaterialModule],
-  exports: [VodDashboardComponent],
+  exports: [VodDashboardComponent ],
   providers: [VodDashboardService]
 })
 export class VodDashboardModule {}

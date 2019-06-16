@@ -1,11 +1,3 @@
 <h1>Smash and Splash</h1>
 <p>Vods:</p>
-<mat-nav-list>
-  <mat-list-item *ngFor="let video of videos">
-    <a
-      matLine
-      href="https://www.youtube.com/watch?v={{ video.contentDetails.videoId }}"
-      >{{ video.snippet.title }}</a
-    >
-  </mat-list-item>
-</mat-nav-list>
+<vod-detail *ngFor="let video of videos" [detail]="video"> </vod-detail>
