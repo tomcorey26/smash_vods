@@ -13,6 +13,4 @@ fdescribe('VideoTitleParser', () => {
       expect(round).toEqual('Grand Finals');
     });
   });
-
-  describe('');
 });
